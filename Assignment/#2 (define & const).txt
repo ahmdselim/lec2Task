@@ -1,0 +1,9 @@
+Deference between define & const
+
+define & const are the constants using too declare unique variable
+
+The Differance
+ 1- define()defines constants at run time , const define constants at compile time.
+ 2- define() can defines constants at conditionally  , const can't defines constants at conditionally.
+ 3- define() takes any expression , const accepts a static scalar (number, string or other constant like true, false, null, __FILE__).
+ 4- define() accepts any expression as name , const takes a plain constant name. 

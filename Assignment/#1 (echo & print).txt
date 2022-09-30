@@ -1,0 +1,15 @@
+Deference between echo & print
+
+define echo it`s a construct language not function used to output the data to screen
+define print it`s a construct language not function used to output the data to screen
+
+the Difference
+ 1- echo it`s accept multiple parameters while print it`s accept one argument.
+ 2- echo it`s has no return value while print return has return a value of 1 so we can used with expression.
+ 3- echo it`s marginally faster than print.
+
+ex:
+ $name="The Best Eng Moustafa Mahzouz ❤";
+ echo $name;
+ print $name;
+ $name ? print("true") : print("false"); // we used print with expression because return always return 1
